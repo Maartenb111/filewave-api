@@ -3,6 +3,9 @@ var Mysql = require('mysql');
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
+console.log('Filewave API replication');
+console.log('Version: 1.0');
+
 Superagent
   .get('https://its001.itsight.com:20445/inv/api/v1/query/')
   .set('Authorization', 'ezdkYjcwNDNkLTIzNTAtNDM3YS05YTJlLTVkYWQwM2FkZGVkMH0=')
